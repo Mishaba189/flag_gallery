@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Flag</title>
+        <style>
+            .flag{
+                height: 200px;
+                width: 400px;
+                background-color: #00abc9;
+                border:0.5px solid rgba(235, 235, 235, 0.923);
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                position: relative;
+            }
+            .center{
+                background-color: #fae042;
+            }
+            .triangle {
+                width: 0;
+                height: 0;
+                border-top: 100px solid transparent; 
+                border-bottom: 100px solid transparent;
+                border-left: 173.2px solid black;
+                position: absolute;
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="flag">
+            <div class="top"></div>
+            <div class="center"></div>
+            <div class="bottom"></div>
+            <div class="triangle"></div>   
+        </div>
+        
+    </body>
+</html>
