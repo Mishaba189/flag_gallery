@@ -17,3 +17,14 @@
         </div>
     </body>
 </html>
+
+
+<div class="flag-card">
+    <div class="flag">
+        
+    </div>
+    <div class="flag-info">
+        <h3></h3>
+        <code>.flag-</code>
+    </div>
+</div>

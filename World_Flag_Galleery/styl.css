@@ -15,7 +15,7 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     max-width: 1200px;
-    gap: 2rem;
+    gap: 3rem;
     margin: 0 auto;
     position: relative;
 }
@@ -37,3 +37,171 @@ header {
     text-align: center;
 }
 
+/* PALAU  */
+
+.flag1{
+    height: 200px;
+    width: 300px;
+    background-color: #4aadd6;
+    position: relative;
+    border:0.5px solid rgba(235, 235, 235, 0.923);
+}
+.flag1 > .circle{
+    height: 120px;  
+    width: 120px; 
+    background-color: #ffde00;
+    border-radius: 50%;
+    position: absolute;
+    left:43.75%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* JAPAN */
+.flag2{
+    height: 200px;
+    width: 300px;
+    background-color: #fff;
+    position: relative;
+    border:0.5px solid rgba(235, 235, 235, 0.923);
+    
+}
+.flag2 > .circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color:  #bc002d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+/* BANGLADESH */
+.flag3{
+        height: 200px;
+        width: 300px;
+        background-color: #006a4e;
+        position: relative;
+        border:0.5px solid rgba(235, 235, 235, 0.923);
+}
+.flag3 > .circle{
+        height: 133.33px;   
+        width: 133.33px;  
+        background-color: #f42a41;
+        border-radius: 50%;
+        position: absolute;
+        left: 45%;
+        top: 50%;
+        transform: translate( -50% , -50%);
+}
+
+/* UKRAINE */
+.flag4{
+    height: 200px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border:0.5px solid rgba(235, 235, 235, 0.923);
+}
+.flag4 > .top{
+    background-color: #005BBB;
+}
+.flag4 > .bottom{
+    background-color: #FFD500;
+}
+
+/* LATVIA */
+
+.flag5{
+    height: 200px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr;
+    background-color: #9E3039;
+    border:0.5px solid rgba(235, 235, 235, 0.923);
+}
+.flag5 > .center{
+    background-color: #fff;
+    grid-row: 2;
+}
+
+/* NIGERIA */
+
+.flag6{
+    height: 200px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #008751;
+    border:0.5px solid rgba(235, 235, 235, 0.923);
+}
+.flag6 > .center{
+    background-color: #fff;
+}
+
+/* PERU */
+.flag7{
+    height: 200px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #D91023;
+    border:0.5px solid rgba(235, 235, 235, 0.923);
+}
+flag7 > .center{
+    background-color: #fff;
+}
+/* POLAND */
+
+.flag8{
+    height: 200px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #fff;
+    border:0.5px solid rgba(235, 235, 235, 0.923);
+}
+.flag8 > .bottom{
+    background-color: #dc143c;
+}
+
+/* MONACO */
+.flag9{
+    height: 200px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #ce1126;
+    border:0.5px solid rgba(235, 235, 235, 0.923);
+}
+.flag9 > .bottom{
+    background-color: #fff;
+}
+
+/* INDONESIA */
+.flag10{
+    height: 200px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #ce1126;
+    border:0.5px solid rgba(235, 235, 235, 0.923);
+}
+.flag10 > .bottom{
+    background-color: #fff;
+}
+
+/* AUSTRIA */
+
+.flag11{
+    height: 200px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #ed2939;
+    border:0.5px solid rgba(235, 235, 235, 0.923);
+}
+.flag11 > .center{
+    background-color: #fff;
+}
