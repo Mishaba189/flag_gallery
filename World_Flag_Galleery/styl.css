@@ -206,22 +206,4 @@ flag7 > .center{
     background-color: #fff;
 }
 
-/* Bangladesh */
 
-.flag12{
-    height: 200px;
-    width: 300px;
-    background-color: #006a4e;
-    position: relative;
-    border:0.5px solid rgba(235, 235, 235, 0.923);
-}
-.flag12 > .circle{
-    height: 120px;  
-    width: 120px; 
-    background-color:#f42a41;
-    border-radius: 50%;
-    position: absolute;
-    left:43.75%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
